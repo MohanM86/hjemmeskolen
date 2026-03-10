@@ -1,0 +1,121 @@
+import type { PensumFag } from '@/types'
+
+// ============================================================
+// KOMPLETT PENSUMKART — NORSK 1.–7. KLASSE
+// Basert på Kunnskapsløftet 2020
+// ============================================================
+
+export const norskPensum: PensumFag[] = [
+  {
+    fag: 'norsk',
+    klasse: '1',
+    temaer: [
+      { slug: 'bokstaver-a-m', tittel: 'Bokstavene A–M', klasse: '1', fag: 'norsk', beskrivelse: 'Lære de første 13 bokstavene i alfabetet', kompetansemål: ['Kjenne igjen store og små bokstaver', 'Lytte til bokstavlyder'] },
+      { slug: 'bokstaver-n-aa', tittel: 'Bokstavene N–Å', klasse: '1', fag: 'norsk', beskrivelse: 'Lære resten av det norske alfabetet', kompetansemål: ['Kjenne alle bokstaver', 'Lære norske særbokstaver æ, ø, å'] },
+      { slug: 'lyder-og-fonemer', tittel: 'Lyder og fonemer', klasse: '1', fag: 'norsk', beskrivelse: 'Koble lyd til bokstav', kompetansemål: ['Forstå at ord bygges av lyder', 'Lydere enkle ord'] },
+      { slug: 'enkle-ord', tittel: 'Enkle ord', klasse: '1', fag: 'norsk', beskrivelse: 'Lese og skrive korte ord', kompetansemål: ['Lese enkle tre-fire-bokstavsord', 'Skrive enkle ord med støtte'] },
+      { slug: 'avlesing-1', tittel: 'Avlesing og setninger', klasse: '1', fag: 'norsk', beskrivelse: 'Lese korte setninger høyt', kompetansemål: ['Lese enkle setninger', 'Forstå hva du leser'] },
+      { slug: 'rime-og-rytme', tittel: 'Rim og rytme', klasse: '1', fag: 'norsk', beskrivelse: 'Oppleve rim, regler og sangtekster', kompetansemål: ['Kjenne igjen rim', 'Lage enkle rim'] },
+      { slug: 'stor-bokstav', tittel: 'Stor bokstav og punktum', klasse: '1', fag: 'norsk', beskrivelse: 'Bruke stor bokstav og punktum riktig', kompetansemål: ['Begynne setning med stor bokstav', 'Avslutte setning med punktum'] },
+      { slug: 'skjonnlitteratur-1', tittel: 'Skjønnlitteratur for barn', klasse: '1', fag: 'norsk', beskrivelse: 'Lytte til og snakke om bøker', kompetansemål: ['Gjenfortelle en enkel historie', 'Snakke om karakterer'] },
+      { slug: 'daglig-skriving', tittel: 'Daglig skriving', klasse: '1', fag: 'norsk', beskrivelse: 'Skrive enkle setninger om seg selv', kompetansemål: ['Skrive med støtte', 'Uttrykke seg skriftlig'] },
+      { slug: 'munnlig-kommunikasjon', tittel: 'Muntlig kommunikasjon', klasse: '1', fag: 'norsk', beskrivelse: 'Lytte, fortelle og delta i samtaler', kompetansemål: ['Lytte aktivt', 'Fortelle om eget liv'] },
+    ],
+  },
+  {
+    fag: 'norsk',
+    klasse: '2',
+    temaer: [
+      { slug: 'lesing-2', tittel: 'Lesing og forståelse', klasse: '2', fag: 'norsk', beskrivelse: 'Lese enkle tekster og forstå innholdet', kompetansemål: ['Lese flytende', 'Forstå innholdet i teksten'] },
+      { slug: 'stavemåte-2', tittel: 'Stavemåte – enkle regler', klasse: '2', fag: 'norsk', beskrivelse: 'Stave vanlige ord riktig', kompetansemål: ['Stave enkle høyfrekvente ord', 'Bruke lydmetoden'] },
+      { slug: 'substantiver', tittel: 'Substantiver', klasse: '2', fag: 'norsk', beskrivelse: 'Lære hva substantiver er', kompetansemål: ['Gjenkjenne substantiver', 'Kjenne til fellesnavn og egennavn'] },
+      { slug: 'verb-2', tittel: 'Verb – handlingsord', klasse: '2', fag: 'norsk', beskrivelse: 'Forstå og bruke verb i setninger', kompetansemål: ['Kjenne igjen verb', 'Bruke verb i egne setninger'] },
+      { slug: 'setningsbygging', tittel: 'Setningsbygging', klasse: '2', fag: 'norsk', beskrivelse: 'Bygge enkle og sammensatte setninger', kompetansemål: ['Skrive fullstendige setninger', 'Bruke og, men, for'] },
+      { slug: 'teksttyper-2', tittel: 'Ulike teksttyper', klasse: '2', fag: 'norsk', beskrivelse: 'Bli kjent med fortelling, dikt og brev', kompetansemål: ['Kjenne igjen ulike sjangre', 'Skrive enkelt innen ulike sjangre'] },
+      { slug: 'tegnsetting-2', tittel: 'Tegnsetting', klasse: '2', fag: 'norsk', beskrivelse: 'Bruke punktum, spørsmålstegn og utropstegn', kompetansemål: ['Bruke punktum og spørsmålstegn'] },
+      { slug: 'boklesing-2', tittel: 'Boklesing og litteratur', klasse: '2', fag: 'norsk', beskrivelse: 'Lese kapittelbok og snakke om den', kompetansemål: ['Lese bøker selvstendig', 'Gjenfortelle og kommentere'] },
+      { slug: 'diktat', tittel: 'Diktat og rettskriving', klasse: '2', fag: 'norsk', beskrivelse: 'Øve på å stave ord fra høytlesning', kompetansemål: ['Skrive ord riktig fra diktat'] },
+      { slug: 'kreativ-skriving-2', tittel: 'Kreativ skriving', klasse: '2', fag: 'norsk', beskrivelse: 'Skrive enkle fortellinger og dikt', kompetansemål: ['Skrive egen fortelling med begynnelse og slutt'] },
+    ],
+  },
+  {
+    fag: 'norsk',
+    klasse: '3',
+    temaer: [
+      { slug: 'adjektiver', tittel: 'Adjektiver', klasse: '3', fag: 'norsk', beskrivelse: 'Beskrivende ord og bøying', kompetansemål: ['Gjenkjenne adjektiver', 'Bøye adjektiver i kjønn og tall'] },
+      { slug: 'ordklasser', tittel: 'Ordklasser – oversikt', klasse: '3', fag: 'norsk', beskrivelse: 'Lære de fire viktigste ordklassene', kompetansemål: ['Kjenne til substantiv, verb, adjektiv, pronomen'] },
+      { slug: 'pronomen', tittel: 'Pronomen', klasse: '3', fag: 'norsk', beskrivelse: 'Forstå og bruke pronomen', kompetansemål: ['Bruke jeg, du, han, hun, vi, de riktig'] },
+      { slug: 'avsnitt-og-avkapitling', tittel: 'Avsnitt og struktur', klasse: '3', fag: 'norsk', beskrivelse: 'Dele tekst inn i avsnitt', kompetansemål: ['Skrive tekst med innledning og avslutning', 'Bruke avsnitt'] },
+      { slug: 'lesestrategier', tittel: 'Lesestrategier', klasse: '3', fag: 'norsk', beskrivelse: 'Lære VØL og andre leseteknikker', kompetansemål: ['Bruke lesestrategier aktivt', 'Forstå ukjente ord i kontekst'] },
+      { slug: 'faktatekster', tittel: 'Faktatekster', klasse: '3', fag: 'norsk', beskrivelse: 'Lese og skrive faktatekster', kompetansemål: ['Skille fakta fra fiksjon', 'Skrive enkel faktatekst'] },
+      { slug: 'nynorsk-intro', tittel: 'Nynorsk – innledning', klasse: '3', fag: 'norsk', beskrivelse: 'Bli kjent med nynorsk som skriftform', kompetansemål: ['Kjenne til at norsk har to skriftformer', 'Lese enkle nynorsktekster'] },
+      { slug: 'ordbok', tittel: 'Ordbok og oppslagsverk', klasse: '3', fag: 'norsk', beskrivelse: 'Bruke ordbok og digitale hjelpemidler', kompetansemål: ['Slå opp ord i ordbok', 'Forstå definisjoner'] },
+      { slug: 'fortelling-3', tittel: 'Skriv en fortelling', klasse: '3', fag: 'norsk', beskrivelse: 'Skrive kreativ fortelling med handling', kompetansemål: ['Skrive fortelling med person, sted og handling', 'Bruke dialog'] },
+      { slug: 'nyheter-og-medier', tittel: 'Nyheter og medier', klasse: '3', fag: 'norsk', beskrivelse: 'Forstå nyheter og ulike medier', kompetansemål: ['Snakke om nyheter', 'Skille mellom fakta og mening'] },
+    ],
+  },
+  {
+    fag: 'norsk',
+    klasse: '4',
+    temaer: [
+      { slug: 'substantivboying', tittel: 'Substantivbøying', klasse: '4', fag: 'norsk', beskrivelse: 'Bøye substantiver i ubestemt og bestemt form', kompetansemål: ['Bøye substantiver', 'Forstå kjønn i norsk'] },
+      { slug: 'verbboying', tittel: 'Verbbøying', klasse: '4', fag: 'norsk', beskrivelse: 'Bøye verb i tid: nåtid, fortid, fremtid', kompetansemål: ['Bøye verb i nåtid og fortid', 'Bruke riktig verbtid'] },
+      { slug: 'sammensatte-ord', tittel: 'Sammensatte ord', klasse: '4', fag: 'norsk', beskrivelse: 'Forstå og lage sammensatte ord', kompetansemål: ['Kjenne igjen og forstå sammensatte ord'] },
+      { slug: 'tekstanalyse', tittel: 'Tekstanalyse', klasse: '4', fag: 'norsk', beskrivelse: 'Analysere fortelling med tema, handling, person', kompetansemål: ['Identifisere tema', 'Beskrive karakterer', 'Kjenne til plot'] },
+      { slug: 'dikt-4', tittel: 'Dikt og poesi', klasse: '4', fag: 'norsk', beskrivelse: 'Lese, tolke og skrive dikt', kompetansemål: ['Lese dikt med innlevelse', 'Skrive eget dikt'] },
+      { slug: 'rapport', tittel: 'Rapport og referat', klasse: '4', fag: 'norsk', beskrivelse: 'Skrive enkel faglig rapport', kompetansemål: ['Skrive rapport om et emne', 'Bruke informasjon fra kilder'] },
+      { slug: 'tegnsetting-4', tittel: 'Tegnsetting – videre', klasse: '4', fag: 'norsk', beskrivelse: 'Bruke komma, kolon og tankestreker', kompetansemål: ['Bruke komma i lister', 'Bruke kolon riktig'] },
+      { slug: 'synonymer-og-antonymer', tittel: 'Synonymer og antonymer', klasse: '4', fag: 'norsk', beskrivelse: 'Utvide ordforråd med synonymer', kompetansemål: ['Kjenne til synonymer', 'Bruke variert språk'] },
+      { slug: 'nynorsk-4', tittel: 'Nynorsk – lesing og skriving', klasse: '4', fag: 'norsk', beskrivelse: 'Lese og skrive enkle nynorsktekster', kompetansemål: ['Skrive enkelt på nynorsk', 'Forstå viktige nynorskord'] },
+      { slug: 'presentasjon-4', tittel: 'Muntlig presentasjon', klasse: '4', fag: 'norsk', beskrivelse: 'Holde en kort muntlig presentasjon', kompetansemål: ['Presentere et tema muntlig', 'Bruke kroppsspråk og stemme'] },
+    ],
+  },
+  {
+    fag: 'norsk',
+    klasse: '5',
+    temaer: [
+      { slug: 'setningsanalyse', tittel: 'Setningsanalyse', klasse: '5', fag: 'norsk', beskrivelse: 'Analysere setningers struktur: subjekt og predikat', kompetansemål: ['Finne subjekt og predikat', 'Analysere enkle setninger'] },
+      { slug: 'adverb', tittel: 'Adverb', klasse: '5', fag: 'norsk', beskrivelse: 'Forstå og bruke adverb', kompetansemål: ['Gjenkjenne adverb', 'Bruke adverb i egne tekster'] },
+      { slug: 'konjunksjoner', tittel: 'Konjunksjoner', klasse: '5', fag: 'norsk', beskrivelse: 'Bindeord og deres funksjon', kompetansemål: ['Kjenne til vanlige konjunksjoner', 'Bruke dem i tekst'] },
+      { slug: 'sakprosa-5', tittel: 'Sakprosa', klasse: '5', fag: 'norsk', beskrivelse: 'Lese og skrive artikler, instruksjoner og anmeldelser', kompetansemål: ['Skrive i ulike sakprosajangre'] },
+      { slug: 'argumentering', tittel: 'Argumenterende skriving', klasse: '5', fag: 'norsk', beskrivelse: 'Skrive tekster som argumenterer for en påstand', kompetansemål: ['Bruke argumenter i tekst', 'Trekke konklusjon'] },
+      { slug: 'lesing-av-romaner', tittel: 'Romaner og litteratur', klasse: '5', fag: 'norsk', beskrivelse: 'Lese og diskutere romaner', kompetansemål: ['Lese lengre tekster selvstendig', 'Tolke temaer og budskap'] },
+      { slug: 'kilder-og-kildekritikk', tittel: 'Kilder og kildekritikk', klasse: '5', fag: 'norsk', beskrivelse: 'Vurdere kilders troverdighet', kompetansemål: ['Finne gode kilder', 'Vurdere pålitelighet'] },
+      { slug: 'ordforraad-5', tittel: 'Ordforråd og presisjon', klasse: '5', fag: 'norsk', beskrivelse: 'Bygge variert og presist ordforråd', kompetansemål: ['Bruke fagord', 'Velge riktig ord i kontekst'] },
+      { slug: 'nynorsk-5', tittel: 'Nynorsk – grammatikk', klasse: '5', fag: 'norsk', beskrivelse: 'Forstå nynorsk grammatikk bedre', kompetansemål: ['Bøye verb og substantiver på nynorsk'] },
+      { slug: 'drama-og-rollespill', tittel: 'Drama og rollespill', klasse: '5', fag: 'norsk', beskrivelse: 'Bruke drama som kommunikasjonsform', kompetansemål: ['Delta i drama og rollespill', 'Skrive enkelt manus'] },
+    ],
+  },
+  {
+    fag: 'norsk',
+    klasse: '6',
+    temaer: [
+      { slug: 'preposisjoner', tittel: 'Preposisjoner', klasse: '6', fag: 'norsk', beskrivelse: 'Forstå og bruke preposisjoner korrekt', kompetansemål: ['Kjenne til vanlige preposisjoner', 'Bruke dem riktig i setninger'] },
+      { slug: 'avansert-setning', tittel: 'Avansert setningsstruktur', klasse: '6', fag: 'norsk', beskrivelse: 'Bruke leddsetninger og bi-setninger', kompetansemål: ['Skrive setninger med leddsetninger', 'Bruke komma foran leddsetning'] },
+      { slug: 'stil-og-sjanger', tittel: 'Stil og sjanger', klasse: '6', fag: 'norsk', beskrivelse: 'Kjenne igjen og skrive i ulike stiler', kompetansemål: ['Skrive i ulike sjangre med bevissthet om stil'] },
+      { slug: 'essay', tittel: 'Essay og refleksjonstekst', klasse: '6', fag: 'norsk', beskrivelse: 'Skrive reflekterende essay', kompetansemål: ['Formulere egne meninger', 'Bygge opp en argumenterende tekst'] },
+      { slug: 'litteraturanalyse', tittel: 'Litteraturanalyse', klasse: '6', fag: 'norsk', beskrivelse: 'Analysere litteratur med fagbegreper', kompetansemål: ['Bruke begreper som tema, motiv, person', 'Tolke budskap'] },
+      { slug: 'medier-og-reklame', tittel: 'Medier og reklame', klasse: '6', fag: 'norsk', beskrivelse: 'Analysere reklame og media kritisk', kompetansemål: ['Forstå virkemidler i reklame', 'Vurdere mediepåvirkning'] },
+      { slug: 'norsk-historie', tittel: 'Norsk språkhistorie', klasse: '6', fag: 'norsk', beskrivelse: 'Kort om norsk språks utvikling', kompetansemål: ['Kjenne til noe om norsk språkhistorie', 'Forstå gammelnorsk og moderne norsk'] },
+      { slug: 'nynorsk-6', tittel: 'Nynorsk – sammenhengende tekst', klasse: '6', fag: 'norsk', beskrivelse: 'Skrive sammenhengende tekster på nynorsk', kompetansemål: ['Skrive avsnitt og korte tekster på nynorsk'] },
+      { slug: 'debatt', tittel: 'Debatt og diskusjon', klasse: '6', fag: 'norsk', beskrivelse: 'Delta i og lede debatter', kompetansemål: ['Argumentere muntlig', 'Lytte til andres synspunkter'] },
+      { slug: 'digital-skriving', tittel: 'Digital skriving', klasse: '6', fag: 'norsk', beskrivelse: 'Skrive for digitale plattformer', kompetansemål: ['Skrive blogginnlegg og digitale tekster', 'Vurdere digital kommunikasjon'] },
+    ],
+  },
+  {
+    fag: 'norsk',
+    klasse: '7',
+    temaer: [
+      { slug: 'avansert-grammatikk', tittel: 'Avansert grammatikk', klasse: '7', fag: 'norsk', beskrivelse: 'Fullstendig gjennomgang av norsk grammatikk', kompetansemål: ['Beherske alle ordklasser', 'Analysere komplekse setninger'] },
+      { slug: 'retorikk', tittel: 'Retorikk og overtalelse', klasse: '7', fag: 'norsk', beskrivelse: 'Forstå og bruke retoriske virkemidler', kompetansemål: ['Kjenne til etos, logos og patos', 'Bruke virkemidler i egne tekster'] },
+      { slug: 'avansert-analyse', tittel: 'Avansert tekstanalyse', klasse: '7', fag: 'norsk', beskrivelse: 'Analysere tekster med dybde og nyanse', kompetansemål: ['Analysere form og innhold', 'Trekke egne konklusjoner'] },
+      { slug: 'nynorsk-7', tittel: 'Nynorsk – full mestring', klasse: '7', fag: 'norsk', beskrivelse: 'Skrive gode nynorsktekster', kompetansemål: ['Skrive lengre tekster på nynorsk', 'Beherske nynorsk grammatikk'] },
+      { slug: 'fagtekster-7', tittel: 'Fagtekster og akademisk skriving', klasse: '7', fag: 'norsk', beskrivelse: 'Skrive strukurerte fagtekster med referanser', kompetansemål: ['Skrive fagtekster med innledning, hoveddel, avslutning'] },
+      { slug: 'satire-og-humor', tittel: 'Satire og humor i litteraturen', klasse: '7', fag: 'norsk', beskrivelse: 'Forstå ironi, satire og humor som litterære virkemidler', kompetansemål: ['Gjenkjenne ironi og satire', 'Reflektere over hensikt'] },
+      { slug: 'mediekritikk', tittel: 'Mediekritikk og ytringsfrihet', klasse: '7', fag: 'norsk', beskrivelse: 'Drøfte mediers rolle og ytringsfrihet', kompetansemål: ['Diskutere ytringsfrihet', 'Analysere medias makt'] },
+      { slug: 'muntlig-7', tittel: 'Muntlig framføring', klasse: '7', fag: 'norsk', beskrivelse: 'Holde forberedt framføring med struktur', kompetansemål: ['Bruke taletid, kroppsspråk og hjelpemidler', 'Presentere faglig innhold'] },
+      { slug: 'ordforraad-7', tittel: 'Avansert ordforråd', klasse: '7', fag: 'norsk', beskrivelse: 'Fagord, fremmedord og latinsk-greske rotord', kompetansemål: ['Bruke fagord presist', 'Forstå fremmedord i kontekst'] },
+      { slug: 'sammensatte-tekster', tittel: 'Sammensatte tekster', klasse: '7', fag: 'norsk', beskrivelse: 'Tekster med bilde, lyd og skrift', kompetansemål: ['Analysere multimodale tekster', 'Produsere sammensatte tekster'] },
+    ],
+  },
+]
