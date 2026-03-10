@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-500">© 2024 Hjemmeskolen.no — Gratis norsk læringsplattform for barn</p>
+          <p className="text-sm text-gray-500">© 2026 Hjemmeskolen.no — Gratis norsk læringsplattform for barn</p>
           <p className="text-xs text-gray-600">Originalt innhold basert på Kunnskapsløftet 2020.</p>
         </div>
       </div>
