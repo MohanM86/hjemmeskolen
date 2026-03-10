@@ -1,0 +1,121 @@
+import type { PensumFag } from '@/types'
+
+// ============================================================
+// KOMPLETT PENSUMKART — ENGELSK 1.–7. KLASSE
+// Basert på Kunnskapsløftet 2020
+// ============================================================
+
+export const engelskPensum: PensumFag[] = [
+  {
+    fag: 'engelsk',
+    klasse: '1',
+    temaer: [
+      { slug: 'hilsener', tittel: 'Hilsener og høflighet', klasse: '1', fag: 'engelsk', beskrivelse: 'Hello, goodbye, please, thank you', kompetansemål: ['Si hello og goodbye', 'Bruke please og thank you'] },
+      { slug: 'tall-1-10-en', tittel: 'Tall 1–10', klasse: '1', fag: 'engelsk', beskrivelse: 'One to ten på engelsk', kompetansemål: ['Telle til 10 på engelsk', 'Kjenne igjen tall skrevet ut'] },
+      { slug: 'farger-en', tittel: 'Farger', klasse: '1', fag: 'engelsk', beskrivelse: 'Lære farger på engelsk', kompetansemål: ['Navngi vanlige farger på engelsk'] },
+      { slug: 'kropp-en', tittel: 'Kropp og kroppsdeler', klasse: '1', fag: 'engelsk', beskrivelse: 'Head, shoulders, knees and toes', kompetansemål: ['Navngi kroppsdeler på engelsk'] },
+      { slug: 'dyr-en', tittel: 'Dyr', klasse: '1', fag: 'engelsk', beskrivelse: 'Cat, dog, horse, cow – vanlige dyr', kompetansemål: ['Navngi vanlige dyr på engelsk'] },
+      { slug: 'mat-og-drikke-en', tittel: 'Mat og drikke', klasse: '1', fag: 'engelsk', beskrivelse: 'Apple, milk, bread – enkel mat', kompetansemål: ['Navngi vanlig mat og drikke på engelsk'] },
+      { slug: 'familie-en', tittel: 'Familie', klasse: '1', fag: 'engelsk', beskrivelse: 'Mum, dad, brother, sister', kompetansemål: ['Navngi familiemedlemmer på engelsk'] },
+      { slug: 'abc-en', tittel: 'Det engelske alfabetet', klasse: '1', fag: 'engelsk', beskrivelse: 'Lære alfabetet på engelsk', kompetansemål: ['Synge og si alfabetet', 'Gjenkjenne alle bokstaver'] },
+      { slug: 'sang-og-regler', tittel: 'Sanger og regler', klasse: '1', fag: 'engelsk', beskrivelse: 'Lære og synge engelske barnesanger', kompetansemål: ['Synge enkle engelske sanger', 'Forstå innholdet'] },
+      { slug: 'ja-og-nei', tittel: 'Yes og No – enkle svar', klasse: '1', fag: 'engelsk', beskrivelse: 'Svare yes og no på enkle spørsmål', kompetansemål: ['Svare kort på spørsmål', 'Forstå enkle ja/nei-spørsmål'] },
+    ],
+  },
+  {
+    fag: 'engelsk',
+    klasse: '2',
+    temaer: [
+      { slug: 'tall-til-20-en', tittel: 'Tall til 20', klasse: '2', fag: 'engelsk', beskrivelse: 'Eleven to twenty på engelsk', kompetansemål: ['Telle til 20 på engelsk', 'Kjenne igjen tallene skrevet'] },
+      { slug: 'ukedager-en', tittel: 'Ukedager', klasse: '2', fag: 'engelsk', beskrivelse: 'Monday to Sunday på engelsk', kompetansemål: ['Si og skrive ukedagene på engelsk'] },
+      { slug: 'maneders-en', tittel: 'Måneder og årstider', klasse: '2', fag: 'engelsk', beskrivelse: 'January to December og de fire årstidene', kompetansemål: ['Si månedene på engelsk', 'Kjenne årstider på engelsk'] },
+      { slug: 'vær-en', tittel: 'Vær og temperatur', klasse: '2', fag: 'engelsk', beskrivelse: 'It is sunny, cold, rainy – snakke om vær', kompetansemål: ['Beskrive vær på engelsk', 'Bruke enkle setninger'] },
+      { slug: 'enkle-setninger-2', tittel: 'Enkle setninger', klasse: '2', fag: 'engelsk', beskrivelse: 'I am, You are, He is – enkle subjekt-predikat', kompetansemål: ['Bruke I am og You are', 'Forstå enkle setninger'] },
+      { slug: 'klasserom-en', tittel: 'Klasserommet', klasse: '2', fag: 'engelsk', beskrivelse: 'Book, pencil, table, chair – ord fra klasserommet', kompetansemål: ['Navngi gjenstander i klasserommet på engelsk'] },
+      { slug: 'ordre-og-instruksjoner', tittel: 'Ordre og instruksjoner', klasse: '2', fag: 'engelsk', beskrivelse: 'Sit down, stand up, open the book', kompetansemål: ['Forstå og følge enkle instruksjoner', 'Gi enkle instruksjoner'] },
+      { slug: 'favorittting', tittel: 'Mine favoritter', klasse: '2', fag: 'engelsk', beskrivelse: 'My favourite colour is... I like...', kompetansemål: ['Snakke om egne preferanser på engelsk'] },
+      { slug: 'sang-og-rim-2', tittel: 'Sanger, rim og eventyr', klasse: '2', fag: 'engelsk', beskrivelse: 'Lytte til og fortelle enkle engelske eventyr', kompetansemål: ['Forstå innholdet i enkle engelske eventyr'] },
+      { slug: 'lesing-2-en', tittel: 'Enkel lesing', klasse: '2', fag: 'engelsk', beskrivelse: 'Lese enkle engelske ord og setninger', kompetansemål: ['Lese enkle engelske tekster med støtte'] },
+    ],
+  },
+  {
+    fag: 'engelsk',
+    klasse: '3',
+    temaer: [
+      { slug: 'tall-til-100-en', tittel: 'Tall til 100', klasse: '3', fag: 'engelsk', beskrivelse: 'Telle til 100 og forstå titalls', kompetansemål: ['Telle til 100 på engelsk', 'Kjenne twenty, thirty...'] },
+      { slug: 'presentasjon-3-en', tittel: 'Å presentere seg', klasse: '3', fag: 'engelsk', beskrivelse: 'My name is, I am from, I live in', kompetansemål: ['Presentere seg selv på engelsk', 'Stille enkle spørsmål'] },
+      { slug: 'verb-to-be', tittel: 'Verbet to be', klasse: '3', fag: 'engelsk', beskrivelse: 'I am, you are, he/she/it is, we are, they are', kompetansemål: ['Bruke to be i alle former', 'Lage spørsmål og svar'] },
+      { slug: 'verb-have', tittel: 'Verbet to have', klasse: '3', fag: 'engelsk', beskrivelse: 'I have, you have, he has', kompetansemål: ['Bøye to have', 'Bruke have got'] },
+      { slug: 'fritid-og-hobbyer', tittel: 'Fritid og hobbyer', klasse: '3', fag: 'engelsk', beskrivelse: 'I like football, I play piano', kompetansemål: ['Snakke om hobbyer', 'Bruke I like og I play'] },
+      { slug: 'hjem-og-hus', tittel: 'Hjem og hus', klasse: '3', fag: 'engelsk', beskrivelse: 'Kitchen, bedroom, living room', kompetansemål: ['Navngi rom i huset', 'Beskrive hjemmet sitt'] },
+      { slug: 'mat-3-en', tittel: 'Mat og måltider', klasse: '3', fag: 'engelsk', beskrivelse: 'Breakfast, lunch, dinner – food vocabulary', kompetansemål: ['Navngi mat og måltider', 'Beskrive hva man spiser'] },
+      { slug: 'reading-3', tittel: 'Lesing og forståelse', klasse: '3', fag: 'engelsk', beskrivelse: 'Lese enkle engelske tekster og svare på spørsmål', kompetansemål: ['Lese enkle tekster selvstendig', 'Svare på forståelsesspørsmål'] },
+      { slug: 'skrive-3-en', tittel: 'Skrive enkle tekster', klasse: '3', fag: 'engelsk', beskrivelse: 'Skrive enkle setninger og avsnitt på engelsk', kompetansemål: ['Skrive enkle tekster om kjente emner'] },
+      { slug: 'ord-og-setninger-3', tittel: 'Ordforråd og setninger', klasse: '3', fag: 'engelsk', beskrivelse: 'Bygge setninger med Subject + Verb + Object', kompetansemål: ['Kjenne til enkel setningsstruktur', 'Skrive korrekte setninger'] },
+    ],
+  },
+  {
+    fag: 'engelsk',
+    klasse: '4',
+    temaer: [
+      { slug: 'present-simple', tittel: 'Present Simple', klasse: '4', fag: 'engelsk', beskrivelse: 'Nåtid – I go, She goes, We play', kompetansemål: ['Bøye verb i present simple', 'Bruke s-formen'] },
+      { slug: 'present-continuous', tittel: 'Present Continuous', klasse: '4', fag: 'engelsk', beskrivelse: 'I am eating, She is running', kompetansemål: ['Forstå og bruke present continuous', 'Skille fra present simple'] },
+      { slug: 'past-simple-reg', tittel: 'Past Simple – regelmessige verb', klasse: '4', fag: 'engelsk', beskrivelse: 'I walked, She played, They talked', kompetansemål: ['Lage fortid med -ed', 'Bruke fortid i enkle tekster'] },
+      { slug: 'spørsmål-4-en', tittel: 'Spørsmål og svar', klasse: '4', fag: 'engelsk', beskrivelse: 'What, where, when, why, who, how', kompetansemål: ['Stille og svare på spørsmål', 'Bruke spørreord riktig'] },
+      { slug: 'adjektiver-4-en', tittel: 'Adjektiver og beskrivelse', klasse: '4', fag: 'engelsk', beskrivelse: 'Big, small, tall, beautiful – beskrive ting', kompetansemål: ['Bruke adjektiver', 'Sammenligne med -er og -est'] },
+      { slug: 'kropp-helse-en', tittel: 'Kropp og helse', klasse: '4', fag: 'engelsk', beskrivelse: 'I have a headache, I feel sick', kompetansemål: ['Snakke om helse og sykdom', 'Bruke have got for symptomer'] },
+      { slug: 'shopping-en', tittel: 'Shopping og priser', klasse: '4', fag: 'engelsk', beskrivelse: 'How much is it? I would like to buy', kompetansemål: ['Gjennomføre enkel shopping-dialog', 'Forstå priser på engelsk'] },
+      { slug: 'kultur-4-en', tittel: 'Engelskspråklig kultur', klasse: '4', fag: 'engelsk', beskrivelse: 'Lese om UK, USA og Australia', kompetansemål: ['Kjenne til noe om engelskspråklige land'] },
+      { slug: 'lesing-4-en', tittel: 'Lengre lesestykker', klasse: '4', fag: 'engelsk', beskrivelse: 'Lese og forstå lengre tekster', kompetansemål: ['Lese tekster med ukjent ordforråd', 'Bruke kontekst til å forstå ord'] },
+      { slug: 'skriving-4-en', tittel: 'Skrive avsnitt', klasse: '4', fag: 'engelsk', beskrivelse: 'Skrive sammenhengende avsnitt på engelsk', kompetansemål: ['Skrive avsnitt med tema-setning', 'Bruke linking words'] },
+    ],
+  },
+  {
+    fag: 'engelsk',
+    klasse: '5',
+    temaer: [
+      { slug: 'past-simple-irreg', tittel: 'Past Simple – uregelmessige verb', klasse: '5', fag: 'engelsk', beskrivelse: 'Go→went, see→saw, eat→ate', kompetansemål: ['Kunne 30 uregelmessige verb', 'Bruke dem i tekst'] },
+      { slug: 'future-tense', tittel: 'Fremtid: will og going to', klasse: '5', fag: 'engelsk', beskrivelse: 'I will go, I am going to visit', kompetansemål: ['Bruke will for planlagte og spontane handlinger', 'Bruke going to for planer'] },
+      { slug: 'preposisjoner-en', tittel: 'Preposisjoner', klasse: '5', fag: 'engelsk', beskrivelse: 'In, on, at, under, between, next to', kompetansemål: ['Bruke preposisjoner korrekt', 'Beskrive plassering'] },
+      { slug: 'modal-verb', tittel: 'Modalverb', klasse: '5', fag: 'engelsk', beskrivelse: 'Can, could, must, should, may', kompetansemål: ['Bruke modalverb riktig', 'Forstå nyanser i betydning'] },
+      { slug: 'emner-5-en', tittel: 'Dagligliv og samfunn', klasse: '5', fag: 'engelsk', beskrivelse: 'Schools, jobs, community – samtale om hverdagen', kompetansemål: ['Snakke om hverdagslivet på engelsk', 'Lese og forstå samfunnstekster'] },
+      { slug: 'natur-miljø-en', tittel: 'Natur og miljø', klasse: '5', fag: 'engelsk', beskrivelse: 'Climate, animals, environment', kompetansemål: ['Lese om natur og miljø på engelsk', 'Skrive om miljøtema'] },
+      { slug: 'present-perfect', tittel: 'Present Perfect', klasse: '5', fag: 'engelsk', beskrivelse: 'I have been, She has eaten', kompetansemål: ['Forstå og bruke present perfect', 'Skille fra past simple'] },
+      { slug: 'leseferdigheter-5', tittel: 'Leseferdigheter', klasse: '5', fag: 'engelsk', beskrivelse: 'Strategier for å lese engelske tekster', kompetansemål: ['Skumle og skanne tekster', 'Forstå implisitt informasjon'] },
+      { slug: 'skriving-5-en', tittel: 'Skriving – ulike sjangre', klasse: '5', fag: 'engelsk', beskrivelse: 'E-post, brev, fortelling og rapport', kompetansemål: ['Skrive i ulike sjangre på engelsk'] },
+      { slug: 'muntlig-5-en', tittel: 'Muntlig engelsk', klasse: '5', fag: 'engelsk', beskrivelse: 'Diskusjoner og presentasjoner på engelsk', kompetansemål: ['Delta i diskusjoner', 'Holde korte presentasjoner'] },
+    ],
+  },
+  {
+    fag: 'engelsk',
+    klasse: '6',
+    temaer: [
+      { slug: 'passive-voice', tittel: 'Passive voice', klasse: '6', fag: 'engelsk', beskrivelse: 'The book was written by...', kompetansemål: ['Forstå passiv form', 'Bruke passiv i tekst'] },
+      { slug: 'relative-clauses', tittel: 'Relativsetninger', klasse: '6', fag: 'engelsk', beskrivelse: 'The boy who, The book that', kompetansemål: ['Bruke who, which, that riktig', 'Lage relativsetninger'] },
+      { slug: 'conditional', tittel: 'Conditional – hvis-setninger', klasse: '6', fag: 'engelsk', beskrivelse: 'If I had money, I would buy...', kompetansemål: ['Forstå first og second conditional', 'Bruke dem i tekst'] },
+      { slug: 'idiomer', tittel: 'Idiomer og faste uttrykk', klasse: '6', fag: 'engelsk', beskrivelse: 'Break a leg, It is raining cats and dogs', kompetansemål: ['Forstå vanlige idiomer', 'Bruke idiomer i kontekst'] },
+      { slug: 'teknologi-en', tittel: 'Teknologi og fremtid', klasse: '6', fag: 'engelsk', beskrivelse: 'Internet, robots, AI – ord om teknologi', kompetansemål: ['Lese om teknologi på engelsk', 'Skrive om fremtidens teknologi'] },
+      { slug: 'engelsksprak-6', tittel: 'Engelskspråklig verden', klasse: '6', fag: 'engelsk', beskrivelse: 'Lese om kulturer i engelskspråklige land', kompetansemål: ['Sammenligne kulturer', 'Reflektere over kulturforskjeller'] },
+      { slug: 'avansert-skriving-6', tittel: 'Avansert skriving', klasse: '6', fag: 'engelsk', beskrivelse: 'Skrive essays og argumenterende tekster', kompetansemål: ['Skrive argumenterende tekst', 'Bruke avanserte linking words'] },
+      { slug: 'litteratur-6-en', tittel: 'Engelskspråklig litteratur', klasse: '6', fag: 'engelsk', beskrivelse: 'Lese og diskutere engelske tekster', kompetansemål: ['Lese autentiske engelske tekster', 'Diskutere tema og budskap'] },
+      { slug: 'lytte-6-en', tittel: 'Lytteforståelse', klasse: '6', fag: 'engelsk', beskrivelse: 'Forstå engelske lyd og video', kompetansemål: ['Forstå naturlig talt engelsk', 'Ta notater fra lytting'] },
+      { slug: 'muntlig-6-en', tittel: 'Muntlig flyt og uttale', klasse: '6', fag: 'engelsk', beskrivelse: 'Forbedre flyt og uttale i engelsk', kompetansemål: ['Snakke flytende og tydelig', 'Justere for kontekst og mottaker'] },
+    ],
+  },
+  {
+    fag: 'engelsk',
+    klasse: '7',
+    temaer: [
+      { slug: 'avansert-grammatikk-7', tittel: 'Avansert grammatikk', klasse: '7', fag: 'engelsk', beskrivelse: 'Gjennomgang av hele engelsk grammatikk', kompetansemål: ['Beherske alle tidene', 'Bruke komplekse strukturer'] },
+      { slug: 'academic-english', tittel: 'Akademisk engelsk', klasse: '7', fag: 'engelsk', beskrivelse: 'Ord og uttrykk fra akademisk engelsk', kompetansemål: ['Forstå akademisk ordforråd', 'Skrive strukturerte tekster'] },
+      { slug: 'argumentering-7-en', tittel: 'Argumentering og debatt', klasse: '7', fag: 'engelsk', beskrivelse: 'Diskutere og debattere på engelsk', kompetansemål: ['Argumentere muntlig og skriftlig', 'Bruke bevis og eksempler'] },
+      { slug: 'verdenssamfunn', tittel: 'Verdenssamfunn og globale temaer', klasse: '7', fag: 'engelsk', beskrivelse: 'Climate, poverty, human rights på engelsk', kompetansemål: ['Diskutere globale utfordringer', 'Lese autentiske nyhetsartikler'] },
+      { slug: 'creative-writing-7', tittel: 'Creative writing', klasse: '7', fag: 'engelsk', beskrivelse: 'Skrive kreative tekster på engelsk', kompetansemål: ['Skrive fortelling med stil', 'Bruke virkemidler i kreativ skriving'] },
+      { slug: 'analyse-7-en', tittel: 'Tekstanalyse på engelsk', klasse: '7', fag: 'engelsk', beskrivelse: 'Analysere engelske tekster grundig', kompetansemål: ['Analysere tekst med fagbegreper', 'Skrive litterær analyse'] },
+      { slug: 'muntlig-7-en', tittel: 'Muntlig eksamen og forberedelse', klasse: '7', fag: 'engelsk', beskrivelse: 'Forberedelse til muntlig vurdering', kompetansemål: ['Holde strukturert presentasjon', 'Svare på oppfølgingsspørsmål'] },
+      { slug: 'medier-7-en', tittel: 'Medier og digital kommunikasjon', klasse: '7', fag: 'engelsk', beskrivelse: 'Sosiale medier, podcasts og blogger', kompetansemål: ['Forstå digitale sjangre', 'Kommunisere digitalt på engelsk'] },
+      { slug: 'varianter-engelsk', tittel: 'Engelske varianter', klasse: '7', fag: 'engelsk', beskrivelse: 'Britisk, amerikansk og australsk engelsk', kompetansemål: ['Kjenne til ulikheter mellom varianter', 'Forstå ulike aksenter'] },
+      { slug: 'kulturkunnskap-7', tittel: 'Kulturkunnskap', klasse: '7', fag: 'engelsk', beskrivelse: 'Dybdekunnskap om engelskspråklige land', kompetansemål: ['Sammenligne og reflektere over kulturer', 'Vise kulturell forståelse'] },
+    ],
+  },
+]
